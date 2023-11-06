@@ -1,0 +1,249 @@
+.parts {
+    padding-top: 120px;
+    margin-bottom: 70px;
+}
+
+.parts_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 14%;
+}
+
+.parts_title {
+    max-width: 335px;
+}
+
+
+.parts_inner-wrapper {
+    display: flex;
+    gap: 160px;
+
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.parts_image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.parts_image-wrapper {
+    position: relative;
+}
+
+.parts_image-wrapper:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: -40%;
+
+    height: 125%;
+    width: 200%;
+    border: #E2CA5D 2px solid;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parts_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.parts_item {
+    white-space: nowrap;
+}
+
+.parts_item:nth-child(1) {
+    margin-left: -25%;
+}
+
+.parts_item:nth-child(2) {
+    margin-left: -15%;
+}
+
+.parts_item:nth-child(3) {
+    margin-left: -5%;
+}
+
+.parts_item:nth-child(4) {
+    margin-left: 0;
+}
+
+.parts_item:nth-child(5) {
+    margin-left: 2%;
+}
+
+.parts_item:nth-child(6) {
+    margin-left: 2%;
+}
+
+.parts_item:nth-child(7) {
+    margin-left: -1%;
+}
+
+.parts_item:after {
+    position: relative;
+    content: '';
+    display: block;
+    border-bottom:  #D9D9D9 1px solid;
+    opacity: 0.5;
+    /*width: 350px;*/
+    /*right: 355px;*/
+    top: -10px;
+}
+.parts_item:before {
+    position: relative;
+    content: '';
+    display: inline-block;
+    right: 350px;
+    bottom: -5px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/parts/pointer.png");
+    visibility: hidden;
+}
+
+.parts_item:hover:before {
+    visibility: visible;
+}
+
+.parts_item:hover:after {
+    border-bottom:  #E2CA5D 2px solid;
+    /*opacity: 1;*/
+
+
+}
+.img_parts {
+    display: none;
+}
+.parts_item:nth-child(1)::after {
+    width: 330%;
+    right: 350%;
+}
+.parts_item:nth-child(2):after {
+    width: 340%;
+    right: 350%;
+}
+
+.parts_item:nth-child(3):after {
+    width: 538%;
+    right: 538%;
+}
+
+.parts_item:nth-child(4):after {
+    width: 320%;
+    right: 315%;
+}
+
+.parts_item:nth-child(5):after {
+    width: 127%;
+    right: 125%;
+}
+
+.parts_item:nth-child(6):after {
+    width: 440%;
+    right: 440%;
+}
+
+.parts_item:nth-child(7):after {
+    width: 345%;
+    right: 350%;
+}
+
+@media (max-width: 1200px) {
+    .parts_container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .parts_title {
+        align-self: flex-start;
+        margin-bottom: 40px;
+    }
+    .parts_list {
+        font-size: 16px;
+        padding-top: 25px;
+    }
+    .parts_item {
+        line-height: 50%;
+    }
+    .parts_item:nth-child(1) {
+        margin-left: -40%;
+    }
+    .parts_item:after:nth-child(1) {
+        width: 340%;
+        right: 345%;
+    }
+}
+
+@media (max-width: 899px) {
+    .parts {
+        margin-bottom: 0;
+        padding-top: 100px;
+    }
+    .parts_image-wrapper:before {
+        width: 442px;
+        height: 442px;
+    }
+    .parts_image {
+        width: 223px;
+    }
+    .parts_inner-wrapper {
+        margin-bottom: 40px;
+        gap: 110px;
+    }
+    .parts_title {
+        max-width: 550px;
+    }
+    .parts_list {
+        padding-top: 0;
+    }
+    .parts_item {
+        white-space: normal;
+    }
+    .parts_item:before {
+        width: 0;
+        height: 0;
+    }
+    .parts_item:nth-child(5) {
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 600px) {
+.parts_item {
+    margin-left: 0;
+}
+    .parts_image-wrapper:before {
+        display: none;
+    }
+    .parts_inner-wrapper {
+        gap: 0;
+    }
+    .parts_item:nth-child(1),
+    .parts_item:nth-child(2),
+    .parts_item:nth-child(3),
+    .parts_item:nth-child(4),
+    .parts_item:nth-child(5),
+    .parts_item:nth-child(6),
+    .parts_item:nth-child(7)
+    {
+        margin-left: 0;
+    }
+}
+@media (max-width: 600px) {
+    .parts_image {
+        width: 166px;
+    }
+    .parts_container {
+        align-items: center;
+    }
+}

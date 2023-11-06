@@ -1,0 +1,19 @@
+.first {
+    -webkit-transition: transform 300ms ease-in-out, background-color 300ms, color 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, background-color 300ms, color 300ms ease-in-out;
+}
+.first:hover {
+    transform: scale(1.05);
+    background-color: #E3CA5D;
+
+}
+
+.first-scale{
+    -webkit-transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+}
+
+.first-scale:hover {
+    transform: scale(1.02);
+
+}

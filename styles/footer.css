@@ -1,0 +1,184 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #F5F5F5;
+    background-color: #0C1617;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    width: 250px;
+    height: 66px;
+}
+
+.footer_inner-wrap {
+    display: flex;
+    /*gap: 350px;*/
+    justify-content: space-between;
+
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+
+}
+
+.footer_menu-link {
+    display: block;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_menu-link:hover {
+    color: #E3CA5D;
+}
+address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer_contacts-subtitle {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_mail:before {
+    content: '';
+    background-image: url("../images/footer/mail-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 20px;
+    transform: translateY(25%);
+}
+
+.footer_phone:before {
+    content: '';
+    background-image: url("../images/footer/phone-light.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 20px;
+    transform: translateY(25%);
+}
+
+.footer_address:before {
+    content: '';
+    background-image: url("../images/footer/carbon_location-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 20px;
+    transform: translateY(25%);
+}
+
+.footer_mail:hover,
+.footer_phone:hover{
+    color: #E3CA5D;
+}
+
+.copyright-wrapper {
+    margin: 70px auto 0;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media (max-width: 899px) {
+    .footer {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .footer_logo {
+        width: 152px;
+        height: 40px;
+    }
+    .footer_inner-wrap {
+        gap: 53px;
+    }
+    .footer_menu {
+        align-items: flex-start;
+    }
+    .footer_mail:before {
+        margin-right: 10px;
+
+    }
+
+    .footer_phone:before {
+        margin-right: 10px;
+
+    }
+
+    .footer_address:before {
+        margin-right: 10px;
+
+    }
+}
+
+@media (max-width: 760px) {
+    .footer_inner-wrap {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .footer_inner-wrap {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 0 auto;}
+}
+@media (max-width: 480px){
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+
+
+

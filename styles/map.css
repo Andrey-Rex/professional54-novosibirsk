@@ -1,0 +1,8 @@
+.map {
+    padding-bottom: 120px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.map_container {
+    max-width: 1400px;
+}

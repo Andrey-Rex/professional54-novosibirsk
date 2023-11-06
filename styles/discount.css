@@ -1,0 +1,127 @@
+.discount {
+    padding-top: 120px;
+    padding-bottom: 94px;
+
+}
+
+.discount_container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    background: #E2CA5D;
+    padding: 20px;
+}
+
+.discount_inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount_question {
+    color: #0C1617;
+    font-family: Oswald, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 45px */
+
+}
+
+.discount_button {
+    color: #E2CA5D;
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 18px */
+    letter-spacing: 0.36px;
+    border-radius: 35px;
+    background: #0C1617;
+    padding: 20px 35px;
+    width: 335px;
+    text-align: center;
+    align-self: flex-start;
+}
+.discount_image-wrapper {
+    width: 50%;
+    height: 20%;
+}
+.discount_image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+@media (max-width: 1200px) {
+    .discount_question {
+font-size: 40px;
+    max-width: 460px;
+}
+    .discount_image-wrapper {
+        width: 45%;
+    }
+}
+
+@media (max-width: 899px) {
+    .discount_inner-wrapper {
+        margin-left: 0;
+    }
+    .discount_question {
+        font-size: 22px;
+    }
+    .discount_container {
+        /*height: 440px;*/
+        height: 250px;
+    }
+    .discount_image-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+    }
+
+    .discount_image {
+        object-fit: cover;
+
+        position: absolute;
+    }
+}
+@media (max-width: 700px) {
+    .discount_container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .discount_image {
+        position: relative;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .discount_button {
+        width: 300px;
+    }
+    .discount_image-wrapper {
+        width: 300px;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 9px;
+    }
+    .discount_image {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: -240px;
+    }
+    .discount_inner-wrapper {
+        margin-bottom: 20px;
+    }
+
+}

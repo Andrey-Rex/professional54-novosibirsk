@@ -1,0 +1,127 @@
+.materials {
+    padding-top: 120px;
+}
+
+.materials_title {
+    width: 420px;
+    color: #0C1617;
+    font-family: Oswald, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.materials_text-wrapper {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.materials_text {
+    color: #0C1617;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 440px;
+    margin-right: 5%;
+}
+
+.materials_subtitle {
+    color: #0C1617;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.materials_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+
+
+}
+
+.materials_list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    background: #F5F5F5;
+    flex-basis: 19%;
+}
+
+.materials_name {
+    color: #0C1617;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.materials_image{
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .materials_text-wrapper {
+        flex-direction: column;
+        gap: 40px;
+}
+}
+@media (max-width: 899px) {
+    .materials_title {
+        width: 100%;
+    }
+
+    .materials_subtitle {
+        font-size: 22px;
+    }
+    .materials_name {
+        font-size: 18px;
+    }
+    .materials_text {
+        /*width: 530px;*/
+        width: 65%;
+    }
+
+    .materials_list {
+        gap: 0;
+    }
+}
+
+@media (max-width: 744px) {
+    .materials {
+        padding-top: 80px;
+    }
+    .materials_list {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .materials_list-item {
+        flex-basis: 46%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .materials_title {
+        font-size: 30px;
+    }
+    .materials_name {
+        font-size: 16px;
+    }
+}

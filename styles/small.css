@@ -1,0 +1,292 @@
+@media (max-width: 956px) {
+    .models_list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 325px);
+
+    }
+}
+@media (max-width: 899px) {
+    .mobile_menu {
+        display: block;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    .navigation_list.active {
+        display: block;
+        position: absolute;
+        background: #000;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 999;
+        padding: 20px 30px 0 30px;
+        border-bottom: 1px solid #E2CA5D;
+    }
+    .navigation_list.active .navigation_item-link {
+        font-size: 17px;
+        margin-bottom: 25px;
+        display: block;
+    }
+    .list-item-inner_address-image {
+        height: auto;
+        width: 100%;
+        max-width: unset;
+    }
+    .where_btn {
+        display: none;
+    }
+    .address-wrap {
+        display: block;
+    }
+    .address-wrap {
+        flex-basis: 100%;
+    }
+    .phone-wrap {
+        gap: 10px;
+        font-size: 13px;
+        padding-top: 15px;
+        justify-content: space-between;
+    }
+    .where_double {
+        height: 50px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 745px) {
+    .where_text-wrapper {
+        display: block;
+    }
+    .discount_image {
+        position: relative;
+        top: unset;
+        right: unset;
+    }
+    .advantages_list {
+        display: block;
+    }
+    .advantages_list-item {
+        padding: 7px 10px;
+        margin-bottom: 15px;
+    }
+    .landscaping_inner-wrapper,
+    #landscaping_slider {
+        display: block;
+    }
+    .slick-prev, .slick-next {
+        z-index: 99999;
+    }
+    .slick-prev:before, .slick-next:before {
+        color: #E2CA5D;
+        font-size: 24px;
+    }
+    .slick-next {
+        right: -10px;
+    }
+    .slick-prev {
+        left: -10px;
+    }
+    .main_title {
+        font-size: 30px;
+    }
+    .main_text {
+        font-size: 16px;
+        width: 100%;
+        max-width: unset;
+    }
+    .main_text-block {
+        width: 100%;
+    }
+    .main_image {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+    .main_container {
+        display: block;
+    }
+    .main {
+        background-image: unset;
+        border-radius: 0 0 90px 0;
+        height: auto;
+    }
+    .main_button {
+        padding: 15px 35px;
+        display: block;
+        width: auto;
+        margin-bottom: 55px;
+    }
+    .advantages {
+        padding-top: 90px;
+    }
+    .subtitle {
+        margin-bottom: 0;
+    }
+    .advantages_list-item {
+        border-radius: 25px;
+    }
+    .where {
+        padding-top: 90px;
+    }
+    .subtitle {
+        margin-bottom: 40px;
+    }
+    .parts {
+        padding-top: 90px;
+    }
+    .models_text-wrapper {
+        display: block;
+    }
+    .list-item-inner_address-image {
+        max-width: unset;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+    .card_no-models {
+        /*max-width: unset;*/
+        min-height: 508px;
+    }
+    .discount {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .discount_image-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .parts_image {
+        width: 100%;
+        height: auto;
+    }
+    .materials_text-wrapper {
+        display: block;
+    }
+    .materials_title {
+        padding-bottom: 35px;
+    }
+    .materials_text {
+        width: 100%;
+    }
+    .decoration_text-wrapper {
+        display: block;
+    }
+    .landscaping_card_image-wrapper__land img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    .landscaping_card_title,
+    .landscaping_card_list p {
+        margin-bottom: 15px;
+    }
+    .landscaping {
+        padding-bottom: 0;
+    }
+    .examples {
+        padding-top: 80px;
+        padding-bottom: 74px;
+    }
+    .examples_images-wrapper {
+        display: flex;
+      justify-content: space-between;
+      gap: 19px;
+      flex-wrap: wrap;
+    }
+    .examples_images-wrapper > div {
+        flex-basis: 47%;
+    }
+    .gratitude_container {
+        background: none;
+    }
+    .help1 {
+        padding-top: 0;
+    }
+    .map {
+        padding-bottom: 70px;
+    }
+    .footer_inner-wrap {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_menu {
+        align-items: center;
+        text-align: center;
+    }
+    .advantages_container {
+        display: block;
+    }
+    .img_parts {
+        display: block;
+    }
+    .img_parts {
+        display: block;
+        max-width: 100%;
+    }
+    .parts_image-wrapper {
+        display: none;
+    }
+    .parts_list {
+        display: none;
+    }
+    .discount_button {
+        margin-bottom: 20px;
+    }
+    .landscaping_card_image-wrapper__land img {
+        position: relative;
+        margin: auto;
+    }
+    .landscaping_card_image-wrapper__land {
+        text-align: center;
+        padding: 0;
+    }
+    .where_list-item {
+        display: block;
+        flex-basis: 48%;
+    }
+    .list-item-inner_address-image {
+        max-width: unset;
+        height: auto;
+    }
+    .models_list {
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        /*justify-content: space-between;*/
+    }
+    .card {
+        flex-basis: 47%;
+    }
+    .card_cost {
+        font-size: 15px;
+     }
+     .card_action {
+        font-size: 15px;
+     }
+     .card_list-item {
+        margin-bottom: 10px;
+    }
+    .card_no-models {
+        /*min-height: unset;*/
+        font-size: 14px;
+    }
+    .where_double {
+        height: 48px;
+    }
+    .list-item-inner_phone:before {
+        display: none !important;
+    }
+}
+@media (max-width: 360px) {
+    .models_list {
+        display: block;
+    }
+    .where_list {
+        display: block;
+    }
+    .list-item-inner_phone:before {
+        display: block;
+    }
+}
